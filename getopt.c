@@ -35,17 +35,13 @@ PROFITS, BUSINESS INTERRUPTION, LOSS OF PROGRAMS OR OTHER DATA ON
 YOUR INFORMATION HANDLING SYSTEM OR OTHERWISE, EVEN If WE ARE
 EXPRESSLY ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 */
+
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdlib.h>
 #include <stdio.h>
 #include <malloc.h>
-#include "getopt.h"
 
-#ifdef __cplusplus
-	#define _GETOPT_THROW throw()
-#else
-	#define _GETOPT_THROW
-#endif
+#include "getopt.h"
 
 int optind = 1;
 int opterr = 1;
@@ -491,15 +487,15 @@ int _getopt_internal_a (int argc, char *const *argv, const char *optstring, cons
 	optopt = getopt_data_a.optopt;
 	return result;
 }
-int getopt_a (int argc, char *const *argv, const char *optstring) _GETOPT_THROW
+int getopt_a (int argc, char *const *argv, const char *optstring)
 {
 	return _getopt_internal_a (argc, argv, optstring, (const struct option_a *) 0, (int *) 0, 0, 0);
 }
-int getopt_long_a (int argc, char *const *argv, const char *options, const struct option_a *long_options, int *opt_index) _GETOPT_THROW
+int getopt_long_a (int argc, char *const *argv, const char *options, const struct option_a *long_options, int *opt_index)
 {
 	return _getopt_internal_a (argc, argv, options, long_options, opt_index, 0, 0);
 }
-int getopt_long_only_a (int argc, char *const *argv, const char *options, const struct option_a *long_options, int *opt_index) _GETOPT_THROW
+int getopt_long_only_a (int argc, char *const *argv, const char *options, const struct option_a *long_options, int *opt_index)
 {
 	return _getopt_internal_a (argc, argv, options, long_options, opt_index, 1, 0);
 }
@@ -951,15 +947,15 @@ int _getopt_internal_w (int argc, wchar_t *const *argv, const wchar_t *optstring
 	optopt = getopt_data_w.optopt;
 	return result;
 }
-int getopt_w (int argc, wchar_t *const *argv, const wchar_t *optstring) _GETOPT_THROW
+int getopt_w (int argc, wchar_t *const *argv, const wchar_t *optstring)
 {
 	return _getopt_internal_w (argc, argv, optstring, (const struct option_w *) 0, (int *) 0, 0, 0);
 }
-int getopt_long_w (int argc, wchar_t *const *argv, const wchar_t *options, const struct option_w *long_options, int *opt_index) _GETOPT_THROW
+int getopt_long_w (int argc, wchar_t *const *argv, const wchar_t *options, const struct option_w *long_options, int *opt_index)
 {
 	return _getopt_internal_w (argc, argv, options, long_options, opt_index, 0, 0);
 }
-int getopt_long_only_w (int argc, wchar_t *const *argv, const wchar_t *options, const struct option_w *long_options, int *opt_index) _GETOPT_THROW
+int getopt_long_only_w (int argc, wchar_t *const *argv, const wchar_t *options, const struct option_w *long_options, int *opt_index)
 {
 	return _getopt_internal_w (argc, argv, options, long_options, opt_index, 1, 0);
 }
