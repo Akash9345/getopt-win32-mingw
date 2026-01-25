@@ -10,6 +10,11 @@
 
 #pragma once
 
+#ifdef __cplusplus
+	extern "C"
+	{
+#endif
+
 #include <string.h>
 #include <wchar.h>
 
@@ -73,4 +78,8 @@ extern int getopt_long_only_w(int argc, wchar_t *const *argv, const wchar_t *opt
 	#define getopt_long_only getopt_long_only_a
 	#define option option_a
 	#define optarg optarg_a
+#endif
+
+#ifdef __cplusplus
+	}
 #endif
