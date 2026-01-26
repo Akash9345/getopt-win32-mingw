@@ -8,7 +8,8 @@
 	SPDX-License-Identifier: LGPL-3.0
 */
 
-#pragma once
+#ifndef GETOPT_H
+#define GETOPT_H
 
 #ifdef __cplusplus
 	extern "C"
@@ -82,4 +83,6 @@ extern int getopt_long_only_w(int argc, wchar_t *const *argv, const wchar_t *opt
 
 #ifdef __cplusplus
 	}
+#endif
+
 #endif
