@@ -1,5 +1,5 @@
 /*
-	getopt-win32-mingw - getopt implementation library for Windows (Win32) with MinGW.
+	getopt-win32-mingw - POSIX getopt library implementation for Windows (Win32) with MinGW.
 
 	Copyright (C) 2026 Roman Kravchenko
 	Based on getopt-win32 by nanoporetech (https://github.com/nanoporetech/getopt-win32).
